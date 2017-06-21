@@ -3,7 +3,7 @@
 <body>
 hello world!
   <script>
-    location.href = location.href.split('#')[0]+'#alert%2528'
+    history.pushState(history.length + 1, "message", "#alert%25252528")
   </script>
 </body>
 </html>
